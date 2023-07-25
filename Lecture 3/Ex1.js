@@ -3,31 +3,29 @@ let values2 = ['Fries', 9, true,'Mars'];
 let values3 = ['Mars', 9, 'Apple'];
 
 
-for (let i = 0;  i < values1.length; i++){
-    for (let j = 0; j < values2.length; j++) {
-        if (values1[i] === values2[j]){
-            console.log(`The values1 เหมือนกับ values2,ที่คำว่า: ${values1[i]}`);
+for (let big = 0;  big < values1.length; big++){
+    for (let kuma = 0; kuma < values2.length; kuma++) {
+        if (values1[big] === values2[kuma]){
+            console.log(`The values1 เหมือนกับ values2,ที่คำว่า: ${values1[big]}`);
         }
     }
 }
 
-for (let i = 0;  i < values1.length; i++){
-    for (let j = 0; j < values3.length; j++) {
-        if (values1[i] === values3[j]){
-            console.log(`The values1 เหมือนกับ values3,ที่คำว่า: ${values1[i]}`);
+for (let big = 0;  big < values1.length; big++){
+    for (let kuma = 0; kuma < values3.length; kuma++) {
+        if (values1[big] === values3[kuma]){
+            console.log(`The values1 เหมือนกับ values3,ที่คำว่า: ${values1[big]}`);
         }
     }
 }
 
-for (let i = 0;  i < values2.length; i++){
-    for (let j = 0; j < values3.length; j++) {
-        if (values2[i] === values3[j]){
-            console.log(`The values2 เหมือนกับ values3,ที่คำว่า: ${values2[i]}`);
+for (let big = 0;  big < values2.length; big++){
+    for (let kuma = 0; kuma < values3.length; kuma++) {
+        if (values2[big] === values3[kuma]){
+            console.log(`The values2 เหมือนกับ values3,ที่คำว่า: ${values2[big]}`);
         }
     }
 }
-
-
 
 
 
