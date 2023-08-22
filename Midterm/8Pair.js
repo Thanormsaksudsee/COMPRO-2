@@ -5,24 +5,11 @@ function simplePair(number,result){
 }
 
 
-simplePair([1, 2, 3], 3)
+simplePair([1, 2, 3], 3)    
+simplePair([1, 2, 3], 6)
+simplePair([1, 2, 3], 9)
+simplePair([1, 2, 3], 8)
+simplePair([1, 2, 3], 7)
+simplePair([1, 2, 3], 27)
+simplePair([10, 5, 2, 3, 7, 5], 10)
 
-
-// function removeDups (string){
-//     let list = [];
-    
-//     for(let i = 0; i < string.length; i++){
-//         let du = false
-
-//         for(let j = 0; j < i; j++){
-//             if(string[i] === string[j]){
-//                 du = true
-//                 break;
-//             }
-//     }
-//         if (!du){
-//             list.push(string[i])
-//         }
-//     }
-//     return list
-//     }

@@ -1,25 +1,23 @@
 function removeDups (string){
     let list = [];
-    
     for(let i = 0; i < string.length; i++){
-        let du = false
-
+        let Dups = false;
         for(let j = 0; j < i; j++){
+            // console.log(string[j]);
             if(string[i] === string[j]){
-                du = true
+                Dups = true;
                 break;
             }
-    }
-        if (!du){
-            list.push(string[i])
+            }
+            if(!Dups){
+                list.push(string[i])
         }
-    }
-    return list
-    }
 
+    }
+    return list;
+}
 
 console.log(removeDups([1, 0, 1, 0]));
-console.log(removeDups(["The","big","cat"]));
-
+console.log(removeDups(["The","The","big","cat"]));
 
 

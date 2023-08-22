@@ -1,15 +1,15 @@
-function canMove(piece, start , end){
-    let Rook =
-    let Bishop =
-    let King =
-    let knight =
+// function canMove(piece, start , end){
+//     let Rook =
+//     let Bishop =
+//     let King =
+//     let knight =
 
-}
+// }
 
 
-canMove("Rook","A8","H8")
-canMove("Bishop","A7","G1")
-canMove("Queen","C4","D6")
+// canMove("Rook","A8","H8")
+// canMove("Bishop","A7","G1")
+// canMove("Queen","C4","D6")
 
 
 
