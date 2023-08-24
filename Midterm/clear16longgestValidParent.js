@@ -1,7 +1,23 @@
 function longestValidParentheses(s) {
+    let left = [];
+    let right = []
+
+    for(i of s){
+      if(i == '('){
+      left.push(i);
+    }else{
+      right.push(i);
+    }
+    
+  }
+  let resultMax = Math.max(left.length,right.length);
+  let resultMin = Math.min(left.length,right.length);
+  let resultSolution = resultMax - resultMin
+  let mixRL = resultMax+resultMin;
+  let result = mixRL-resultSolution
 
     
-    return 
+    return result
   }
   
   console.log(longestValidParentheses("(()")); // 2
