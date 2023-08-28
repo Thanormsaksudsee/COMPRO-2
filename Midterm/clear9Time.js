@@ -3,7 +3,8 @@ function digitalClock(time){
     const min = Math.floor((time%3600) /60 );
 
     const sec = time % 60
-    const formattedTime = `${hour} hour${hour !== 1 ? 's' : ''} ${min} mine${min !== 1 ? 's' : ''} ${sec} secs${sec !== 1 ? 's' : ''}`;
+    const formattedTime = `${hour} hour${hour !== 1 ? 's' : ''} 
+                            ${min} mine${min !== 1 ? 's' : ''} ${sec} secs${sec !== 1 ? 's' : ''}`;
     
 
     return formattedTime
