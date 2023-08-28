@@ -4,6 +4,7 @@ function isValidIP(IP) {
     IP1 = IP.split('.')
     if(IP1.length !== 4){
         return false
+        
     }
 
     for(i of IP1){
